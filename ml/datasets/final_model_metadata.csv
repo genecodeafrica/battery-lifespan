@@ -1,0 +1,10 @@
+property,value
+Model,Gradient Boosting Regressor
+Target,Remaining Useful Life (RUL)
+EOL Threshold,80%
+MAE,669.736465 cycles
+RMSE,875.951112 cycles
+R2,0.857924
+Number of Cells,8
+Number of Observations,2076
+Number of Features,11
