@@ -2,15 +2,15 @@
 
 Repository: genecodeafrica
 
-A final-year project developed by Gene Kiliyobas Chipau, Matriculation Number: 24/155703, as a Software and Web Development student at Federal Polytechnic Bauchi, Bauchi State.
+A final-year project developed by Gene Kiliyobas Chipau, Matriculation Number: 24/155703, in the Department of Software and Web Development at Federal Polytechnic Bauchi, Bauchi State.
 
-This project is a full-stack web application for tracking battery health, recording performance measurements, and predicting remaining useful life (RUL) using machine learning. It combines a Laravel-based management dashboard with a FastAPI Python prediction service to help monitor battery degradation, identify potential failures early, and support maintenance decisions.
+This project is a full-stack web application designed to track battery health, record performance measurements, and predict remaining useful life (RUL) using machine learning. It combines a Laravel-based dashboard with a FastAPI Python prediction service to monitor battery degradation, detect early warning signs, and support maintenance decisions.
 
-This project was designed to solve a real-world problem in battery monitoring and predictive maintenance while showcasing practical skills in web development, database design, API integration, and intelligent system development.
+The system was created to address real-world challenges in battery monitoring and predictive maintenance while demonstrating practical skills in web development, database design, API integration, and intelligent system development.
 
 ## Overview
 
-Battery performance degrades over time, and predicting the end of a battery's useful life is critical for maintenance planning, safety, and operational efficiency. This final-year project provides a practical solution for:
+Battery performance gradually declines over time, and predicting the end of a battery's useful life is essential for maintenance planning, safety, and operational efficiency. This final-year project provides a practical solution for:
 
 - registering and managing battery assets
 - storing measurement data such as capacity, voltage, temperature, and cycle statistics
@@ -22,14 +22,14 @@ Battery performance degrades over time, and predicting the end of a battery's us
 ## Key Features
 
 - Battery inventory management with detailed metadata
-- Battery measurement tracking and historical analysis
+- Tracking of battery measurements and historical performance data
 - AI-driven Remaining Useful Life (RUL) prediction
 - Estimated end-of-life cycle forecasting
-- Admin and user access structure
-- Notification center for health warnings and updates
-- Report generation for individual batteries and portfolio summaries
-- CSV/asset import workflow for efficient data onboarding
-- Web application built to demonstrate full-stack development capability in a real-world domain
+- Role-based admin and user access
+- Notification center for health alerts and updates
+- Report generation for individual batteries and performance summaries
+- CSV import workflow for efficient data onboarding
+- Full-stack web application built to demonstrate real-world software engineering skills
 
 ## Tech Stack
 
@@ -57,7 +57,7 @@ battery-lifespan/
 ├── public/               # Public entry point
 ├── resources/            # Views, CSS, and JS assets
 ├── routes/               # Web routes
-├── storage/              # Cache, logs, uploads, and framework data
+├── storage/              # Cache, logs, and framework data
 ├── tests/                # Test suite
 ├── .env.example          # Example environment file
 ├── composer.json         # PHP dependencies
@@ -71,12 +71,12 @@ battery-lifespan/
 
 ## How It Works
 
-1. A battery is created and stored in the Laravel application.
-2. Measurements are added over time to track capacity, voltage, temperature, and lifecycle behavior.
-3. The application sends the relevant battery features to the ML API.
-4. The Python service loads the trained model and returns predicted RUL and estimated end-of-life cycle.
+1. A battery is registered and stored in the Laravel application.
+2. Measurements are recorded over time to track capacity, voltage, temperature, and lifecycle behavior.
+3. The system sends the relevant battery features to the ML API.
+4. The Python service loads the trained model and returns the predicted RUL and estimated end-of-life cycle.
 5. Results are stored and displayed in the dashboard for operational decision-making.
-6. Reports and notifications help teams act before degradation becomes critical.
+6. Reports and notifications help users act before degradation becomes critical.
 
 ## Getting Started
 
@@ -150,7 +150,7 @@ http://127.0.0.1:8001
 
 ## Environment Notes
 
-The Laravel app expects the Python prediction API to be available at the `ML_API_URL` endpoint. The default is configured in `config/services.php` as:
+The Laravel app expects the Python prediction API to be available at the `ML_API_URL` endpoint. The default configuration is set in `config/services.php` as:
 
 ```php
 'ml' => [
@@ -182,7 +182,7 @@ This project was developed as part of my final-year academic work in Software an
 - machine learning with Python and FastAPI
 - predictive analytics for real-world decision making
 
-It reflects both the technical and problem-solving skills expected of a graduating student in software and web development.
+It reflects both the technical capability and problem-solving approach expected of a graduating software and web development student.
 
 ## License
 
