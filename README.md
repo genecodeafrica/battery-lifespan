@@ -788,7 +788,7 @@ Quick reference of every screenshot and its file name in the `documentation/` fo
 ## Academic Information
 
 - **Project Name:** BatteryLife AI — Battery Lifespan Prediction System
-- **Project Title:** Design and Implementation of a Laravel 13-Based Web System for Lithium-Ion Battery Lifespan Prediction Using Machine Learning
+- **Project Title:** Design and Implementation of a Web Based System for Lithium-Ion Lifespan Prediction Using Machine Learning
 - **Developer:** Gene Kiliyobas Chipau
 - **Matriculation Number:** 24/155703
 - **Department:** Software and Web Development
