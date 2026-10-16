@@ -378,20 +378,7 @@ battery-lifespan/
 │   ├── seeders/
 │   └── factories/
 ├── documentation/
-│   ├── Administration.JPG
-│   ├── Advanced_Battery_Analytics.JPG
-│   ├── AI_Lifespan_Prediction.JPG
-│   ├── Batteries.JPG
-│   ├── Dashboard.JPG
-│   ├── Home-Page.JPG
-│   ├── Import_Battery_Dataset.JPG
-│   ├── Login_Page.JPG
-│   ├── Notifications.JPG
-│   ├── PDF_report.JPG
-│   ├── Reports___Analytics.JPG
-│   ├── System_Settings.JPG
-│   ├── User_Management.JPG
-│   └── User_Profile_Page.JPG
+│ 
 ├── ml/
 │   ├── api/
 │   │   └── main.py
