@@ -56,17 +56,12 @@ The specific objectives are to:
 
 The welcome page introduces BatteryLife AI and provides visitors with an overview of the platform. It serves as the main entry point and guides users towards the authentication interface and the system's available features.
 
-**Screenshot file:** `documentation/Home-Page.JPG`
-
-![BatteryLife AI Welcome Page](documentation/Home-Page.JPG)
 
 ### Login Page
 
 The login page provides the authentication interface for authorised users. After successful authentication, users can access the system features permitted by their assigned access level.
 
-**Screenshot file:** `documentation/Login_Page.JPG`
 
-![BatteryLife AI Login Page](documentation/Login_Page.JPG)
 
 ### 1. Dashboard
 
@@ -74,9 +69,7 @@ The dashboard provides a centralised view of the system and its available batter
 
 It helps users access battery records, review system activity, and navigate to relevant monitoring and reporting features.
 
-**Screenshot file:** `documentation/Dashboard.JPG`
 
-![BatteryLife AI Dashboard](documentation/Dashboard.JPG)
 
 ### 2. Battery Management
 
@@ -84,19 +77,13 @@ The battery management module allows users to maintain battery records and their
 
 These records provide the foundation for measurement tracking, historical analysis, and prediction workflows.
 
-**Screenshot file:** `documentation/Batteries.JPG`
 
-![Battery Management](documentation/Batteries.JPG)
 
 ### 3. CSV Data Import
 
 The CSV import functionality helps users introduce measurement data into the application without manually entering every record.
 
 Imported files must follow the structure and validation rules expected by the application.
-
-**Screenshot file:** `documentation/Import_Battery_Dataset.JPG`
-
-![CSV Import](documentation/Import_Battery_Dataset.JPG)
 
 ### 4. Machine-Learning Prediction
 
@@ -106,9 +93,7 @@ The Laravel application sends relevant input features to the FastAPI service. Th
 
 The selected machine-learning algorithm is a **Gradient Boosting Regressor**.
 
-**Screenshot file:** `documentation/AI_Lifespan_Prediction.JPG`
 
-![BatteryLife AI Prediction Interface](documentation/AI_Lifespan_Prediction.JPG)
 
 ### 5. Remaining Useful Life (RUL) Estimation
 
@@ -139,10 +124,6 @@ Capacity measurements and other available parameters can be examined to identify
 
 Charts provide a more accessible way to interpret historical measurement data than reviewing individual readings alone.
 
-**Screenshot file:** `documentation/Advanced_Battery_Analytics.JPG`
-
-![Battery Degradation Chart](documentation/Advanced_Battery_Analytics.JPG)
-
 ### 9. Reports and PDF Generation
 
 The reporting module provides battery and prediction information for review and documentation.
@@ -151,19 +132,13 @@ PDF report generation supports printable records and presentation of relevant re
 
 **Reports & Analytics screenshot file:** `documentation/Reports___Analytics.JPG`
 
-![Battery Reports](documentation/Reports___Analytics.JPG)
 
-**Generated PDF report screenshot file:** `documentation/PDF_report.JPG`
-
-![Generated PDF Report](documentation/PDF_report.JPG)
 
 ### 10. Notifications
 
 The application includes a notification interface for displaying relevant system updates and battery-related messages, according to the functionality implemented.
 
-**Screenshot file:** `documentation/Notifications.JPG`
 
-![Notifications](documentation/Notifications.JPG)
 
 ### 11. Authentication and User Management
 
@@ -171,25 +146,12 @@ Authentication helps protect access to the application.
 
 Administrative functionality supports user account management and relevant system operations according to the permissions configured in the application.
 
-**Admin Dashboard screenshot file:** `documentation/Administration.JPG`
 
-![Administration Dashboard](documentation/Administration.JPG)
-
-**User Management screenshot file:** `documentation/User_Management.JPG`
-
-![User Management](documentation/User_Management.JPG)
 
 ### 12. Profile and Settings
 
 The profile and settings sections provide access to available user profile information and application configuration options.
 
-**Profile screenshot file:** `documentation/User_Profile_Page.JPG`
-
-![User Profile](documentation/User_Profile_Page.JPG)
-
-**Settings screenshot file:** `documentation/System_Settings.JPG`
-
-![Application Settings](documentation/System_Settings.JPG)
 
 ---
 
